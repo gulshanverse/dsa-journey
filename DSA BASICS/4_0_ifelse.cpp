@@ -4,9 +4,11 @@ int main(){
     long long n;
     cout<<"Enter the number: ";
     cin>>n;
-    if (n % 2==0)
+    if (n % 2==0){
     cout<<n<< " is an even number."<<endl;
-    else
+    }
+    else{
     cout<<n<< " is an odd number.";
+    }
     return 0;
 }

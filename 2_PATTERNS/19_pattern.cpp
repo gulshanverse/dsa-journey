@@ -1,16 +1,18 @@
 /*
-A B C D E F 
-A B C D E 
-A B C D 
-A B C 
-A B 
-A */
+A 
+B B 
+C C C 
+D D D D 
+E E E E E 
+F F F F F F ...
+*/
 #include<bits/stdc++.h>
 using namespace std;
-void pattern15(int n){
+void pattern16(int n){
     int i,j;
     for(i = 0;i<n;i++){
-        for(char ch ='A';ch <='A'+ (n-i-1);ch++){
+        char ch ='A'+ i;
+        for(j=0;j<=i;j++){
             cout<<ch<<" ";
         }
         cout<<endl;
@@ -24,7 +26,7 @@ int main(){
     for(i=0;i<t;i++){
         cout<<"Enter n: ";
         cin>>n;
-        pattern15(n);
+        pattern16(n);
     }
     return 0;
 }

@@ -1,21 +1,23 @@
 /*
-A B C D E F 
-A B C D E 
-A B C D 
-A B C 
-A B 
-A */
+*****
+*   *
+*   *
+*   *
+*****
+*/
 #include<bits/stdc++.h>
 using namespace std;
-void pattern15(int n){
+void pattern21(int n){
     int i,j;
     for(i = 0;i<n;i++){
-        for(char ch ='A';ch <='A'+ (n-i-1);ch++){
-            cout<<ch<<" ";
-        }
-        cout<<endl;
+        for(j=0;j<n;j++){
+            if(i==0||j==0||i==n-1||j==n-1){
+            cout<<"*";
+            }
+            else cout<<" ";
+        }    
+    cout<<endl;
     }
-    
 }
 int main(){
     int i,t,n;
@@ -24,7 +26,7 @@ int main(){
     for(i=0;i<t;i++){
         cout<<"Enter n: ";
         cin>>n;
-        pattern15(n);
+        pattern21(n);
     }
     return 0;
 }

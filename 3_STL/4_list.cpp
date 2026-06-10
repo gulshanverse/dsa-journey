@@ -17,5 +17,6 @@ void explainList(){
 }
 
 int main(){
+    explainList();
     return 0;
 }

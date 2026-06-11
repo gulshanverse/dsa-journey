@@ -10,7 +10,12 @@ dq.emplace_front(4);//{1,2,3,4}
 dq.pop_back(); // (1,2,3)
 dq.pop_front(); //(2,3)
 
+deque<int> dq1 ={1,3,5};
 dq.back();
 dq.front();
 
+}
+int main(){
+    void explainDeque();
+    return 0;
 }

@@ -2,7 +2,7 @@
 <img src="./assets/banner.png" width="100%">
 </p>
 
-<h1 align="center">🚀 Data Structures & Algorithms Journey</h1>
+<h1 align="center">🚀 Data Structures & Algorithms Journey </h1>
 
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=25&duration=3500&pause=1000&color=00F7FF&center=true&vCenter=true&width=850&lines=Mastering+Problem+Solving...;Learning+Every+Day...;Cracking+Top+Tech+Interviews...;Code+%E2%80%A2+Debug+%E2%80%A2+Optimize..." />
